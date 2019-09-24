@@ -52,11 +52,11 @@ $sql = 'SELECT * FROM tbm6_userinfo';
 <form action="mission_6-2.php" method="post">
 <p>【  新規登録はこちら  】</p>
 <p>メールアドレス(@込みで入力してください。gmailのみ対応しています。)</p>
-<input type="user_address" name="U_ADDRESS">
+<input type="text" name="U_ADDRESS">
 <p>ユーザ名</p>
-<input type="user_name" name="U_NAME">
+<input type="text" name="U_NAME">
 <p>パスワード(8文字以上入力してください。)</p>
-<input type="user_pass" name = "U_PASS"> 
+<input type="password" name = "U_PASS"> 
 <br><br>
 <input type="submit" value="新規登録">
 </form>
@@ -122,9 +122,9 @@ if( (!empty($honntouroku)) && ($honntouroku == 1)){
 <p>【  ログインはこちら  】</p>
 <form action="mission_6-2.php" method="post">
 <p>メールアドレス</p>
-<input type="login_address" name="L_ADDRESS">
+<input type="text" name="L_ADDRESS">
 <p>パスワード</p>
-<input type="login_pass" name = "L_PASS"> 
+<input type="password" name = "L_PASS"> 
 <br><br>
 <input type="submit" value="ログイン">
 </form>
