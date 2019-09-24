@@ -1,0 +1,76 @@
+﻿body{
+ background-color:#e6eeff;
+ font-size:15px;
+ width:100%;
+ height:60%;
+}
+
+.new{
+padding-left:15%;
+padding-right:15%;
+display:inline-block;
+}
+
+.edit{
+display:inline-block;
+}
+
+.delete{
+display:inline-block;
+}
+
+.contents{
+text-align:center;
+}
+
+.comment{
+ /*display:inline-block;
+ text-align:center;*/
+    margin: 2em 0;
+    background: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.comment .title {
+    font-size: 1.2em;
+    background: #5fc2f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.comment p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+header .keijiban{
+    font-weight: bold;
+    font-size:30px;
+    padding: 4px;
+    text-align: center;
+}
+
+header .clear{
+    font-size:20px;
+    padding: 4px;
+}
+.username{
+    font-weight: bold;
+    font-size:20px;
+    float:right;
+    padding:4px;
+}
+.clear { clear:both; }  
+.tag{
+    font-weight: bold;
+    display:inline;
+    vertical-align:top;
+}
+.input{
+    margin-left:180px;
+}
+.logout{
+	width:200px;
+	margin-left: auto;
+}

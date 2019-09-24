@@ -1,0 +1,38 @@
+﻿body{
+ background-color:#e6eeff;
+ font-size:15px;
+ width:
+ height:
+}
+header{
+ font-size:30px;
+}
+.new_account{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #1a62ff;
+    background: #b3e6ff;/*背景色*/
+    border-top: solid 6px #1a62ff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+    width:50%;
+    height:50 %;
+}
+.new_account p {
+    margin: 0; 
+    padding: 0;
+}
+
+.login_account{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #1a62ff;
+    background: #b3e6ff;/*背景色*/
+    border-top: solid 6px #1a62ff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+    width:50%;
+    height:50 %;
+}
+.login_account p {
+    margin: 0; 
+    padding: 0;
+}
